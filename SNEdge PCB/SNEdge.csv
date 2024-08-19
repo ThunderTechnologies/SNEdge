@@ -1,0 +1,9 @@
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,DNP,Datasheet,Description,Digi_PN,Footprint,MFG_PN
+1,3,"C1, C3, C5",3pF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,~,"Unpolarized capacitor, small symbol",311-1092-1-ND,Capacitor_SMD:C_0805_2012Metric,CC0805CRNPO9BN3R0
+2,3,"C2, C4, C6",24pF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,~,"Unpolarized capacitor, small symbol",478-10387-1-ND,Capacitor_SMD:C_0805_2012Metric,08051A240FAT2A
+3,4,"C7, C8, C9, C10",100nF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~,,~,"Unpolarized capacitor, small symbol",1276-2444-1-ND,Capacitor_SMD:C_0805_2012Metric,CL21B104KBCNFNC
+4,1,J1,RGB_OUT,Connector_Generic_MountingPin:Conn_01x07_MountingPin,TT_Connectors:CON_527460771_MOL,~,,~,"Generic connectable mounting pin connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)",WM8933CT-ND,TT_Connectors:CON_527460771_MOL,527460771
+5,3,"R1, R3, R8",1k,Device:R_US,Resistor_SMD:R_0805_2012Metric,~,,~,"Resistor, US symbol",RMCF0805FT1K00CT-ND,Resistor_SMD:R_0805_2012Metric,RMCF0805FT1K00
+6,3,"R2, R4, R9",150R,Device:R_US,Resistor_SMD:R_0805_2012Metric,~,,~,"Resistor, US symbol",RMCF0805FT150RCT-ND,Resistor_SMD:R_0805_2012Metric,RMCF0805FT150R
+7,3,"R5, R6, R7",510R,Device:R_US,Resistor_SMD:R_0805_2012Metric,~,,~,"Resistor, US symbol",RMCF0805FT510RCT-ND,Resistor_SMD:R_0805_2012Metric,RMCF0805FT510R
+8,1,U1,THS7376,Amplifier_Video:THS7374,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,https://www.ti.com/lit/ds/symlink/ths7374.pdf,,https://www.ti.com/lit/ds/symlink/ths7374.pdf,"4 channel SDTV Video Amplifier, TSSOP-14",296-40584-1-ND,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,THS7376IPWR

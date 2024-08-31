@@ -4,6 +4,14 @@
 	(generator_version "8.0")
 	(uuid "b6c15655-575b-4e1d-9394-554f8b7e5fea")
 	(paper "A4")
+	(title_block
+		(title "SNEdge")
+		(date "2024-08-31")
+		(rev "1")
+		(company "Thunder Technologies")
+		(comment 1 "Designed By InnocuousMuffin")
+		(comment 2 "Design based on YoshiYukiBlade's work")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Video:THS7374"
 			(exclude_from_sim no)

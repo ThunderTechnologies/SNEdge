@@ -25,7 +25,27 @@ There are two methods of installation; Sidecar and RGB Bypass. The Sidecar insta
 
 For **_BOTH_** of these methods, it is absolutely critical so solder an additional 10uF capacitor onto C90, C91, C92, C93, and C94 on the SNES motherboard. If these caps aren't installed, the SNES's video output will be terribly noisy.
 
+Below is an SOT-23 pinout I will be referencing later.
+<img src="https://github.com/ThunderTechnologies/SNEdge/blob/main/SNEdge%20PCB/SOT-23.png" width="640">
+
 ### Sidecar Install
 To start, solder JP1, JP2, and JP3 closed on the SNEdge. 
+Solder a 10uF cap on top of C90, C91, C93, and C94.
 
-Mount the SNEdge somewhere convenient (You'll want the RGB inputs to be as close as possible to Q3, Q5, and Q7.
+Mount the SNEdge somewhere convenient (You'll want the RGB inputs to be as close as possible to Q3, Q5, and Q7).
+
+Q3 is Red, Q5 is Green, and Q7 is Blue. Looking at the SOT-23 pinout above, pin 3 of each is ground. Pin 1 of each is the R, G, and B signals that will be soldered to the SNEdge.
+
+solder leads from Q3 to R_IN and GND.
+
+solder leads from Q5 to G_IN and GND.
+
+solder leads from Q7 to B_IN and GND.
+
+NOTE: _Each_ ground wire is important, don't skip out on this.
+
+The SNEdge needs 5V. Solder 5V to the + and ground to the -
+
+Again, don't skip on the ground, all of them are important.
+
+That's it! You have completed the sidecar install.

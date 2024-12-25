@@ -82,3 +82,7 @@ The SNEdge needs 5V. Solder 5V to the + and ground to the -
 Connect the FFC cable to the SNEdge and the QSB. The contacts of the FFC face down, with the blue tabs facing up.
 
 Congrats! You have completed the full RGB bypass install. Enjoy some crispy RGB.
+
+###Credits
+
+The SNEdge is based on the work of YoshiYukiBlade over on the [shmups.system11.org](https://shmups.system11.org/viewtopic.php?t=70196) forums.

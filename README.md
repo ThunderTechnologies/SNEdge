@@ -24,7 +24,7 @@ However, looking at the [SNES schematic (PDF)](https://wiki.superfamicom.org/upl
 
 There are two methods of installation; Sidecar and RGB Bypass. The Sidecar install doesn't require any desoldering of components, but its sharpness isn't quite as good. The RGB Bypass has better sharpness, but is a more involved install.
 
-For **_BOTH_** of these methods, it is absolutely critical so solder an additional 10uF capacitor onto C90, C91, C92, C93, and C94 on the SNES motherboard. If these caps aren't installed, the SNES's video output will be terribly noisy.
+For **_BOTH_** of these methods, it is absolutely critical so solder an additional 10uF capacitor onto C90, C91, C92, C93, and C94 on the SNES motherboard. If these caps aren't installed, the SNES's video output will be terribly noisy. (For PAL systems, it's C91, C92, C93, C94, and C95).
 
 Below is an SOT-23 pinout I will be referencing later.
 <img src="https://github.com/ThunderTechnologies/SNEdge/blob/main/SNEdge%20PCB/SOT-23.png" width="640">
@@ -32,7 +32,7 @@ Below is an SOT-23 pinout I will be referencing later.
 ### Sidecar Install
 To start, solder JP1, JP2, and JP3 closed on the SNEdge. 
 
-Solder a 10uF cap on top of C90, C91, C93, and C94.
+Solder a 10uF cap on top of C90, C91, C92, C93, and C94. (For PAL systems, it's C91, C92, C93, C94, and C95).
 
 Mount the SNEdge somewhere convenient (You'll want the RGB inputs to be as close as possible to Q3, Q5, and Q7).
 
@@ -53,9 +53,9 @@ Again, don't skip on the ground, all of them are important.
 That's it! You have completed the sidecar install.
 
 ### Full RGB Bypass Install
-If you're starting from a sidecar install, open JP1, JP2, and JP3. Otherwise, just leave them open.
+If you're starting from a sidecar install, open JP1, JP2, and JP3. Otherwise, just leave them open. (Please note that PAL system installation is a bit different, I have info on this, and will be adding it eventually).
 
-Solder a 10uF cap on top of C90, C91, C93, and C94.
+Solder a 10uF cap on top of C90, C91, C92, C93, and C94. (For PAL systems, it's C91, C92, C93, C94, and C95).
 
 Mount the SNEdge somewhere convenient (You'll want the RGB inputs to be as close as possible to Q3, Q5, and Q7). Make sure that the FFC connector is pointed towards the multiout of the SNES.
 

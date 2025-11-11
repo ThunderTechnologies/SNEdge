@@ -2070,19 +2070,19 @@
 		)
 	)
 	(junction
+		(at 49.53 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15bf6e64-9aec-427e-9ab3-0a5a694502a9")
+	)
+	(junction
 		(at 134.62 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15f701fa-0692-42e7-9e0c-09847ea3b04d")
 	)
 	(junction
-		(at 116.84 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21fd2121-b32d-4da6-bbeb-269e2cd4b787")
-	)
-	(junction
-		(at 49.53 106.68)
+		(at 49.53 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25587f8e-5c1a-4de4-b56f-1b9d90845c4e")
@@ -2100,10 +2100,16 @@
 		(uuid "319ae4fc-e442-4be5-91ac-4d9e9581b68c")
 	)
 	(junction
-		(at 80.01 132.08)
+		(at 80.01 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b118fd6-592b-4c6a-9479-b9c4177a9230")
+	)
+	(junction
+		(at 49.53 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f860ff6-f777-4717-9f56-d22bae3acd7a")
 	)
 	(junction
 		(at 196.85 90.17)
@@ -2130,6 +2136,12 @@
 		(uuid "4dc6b1b8-6fb4-4d51-9d76-a1897e7fe566")
 	)
 	(junction
+		(at 49.53 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f5b454e-53e6-426a-afd6-4cd013bf4942")
+	)
+	(junction
 		(at 195.58 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2154,6 +2166,12 @@
 		(uuid "5590883a-b367-438a-926f-04895cdb7f88")
 	)
 	(junction
+		(at 67.31 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55aa38cf-3bef-4c19-98a8-22d0d0a54028")
+	)
+	(junction
 		(at 226.06 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2166,7 +2184,13 @@
 		(uuid "62239b5a-5d7e-47f4-a186-5dd95df890e2")
 	)
 	(junction
-		(at 77.47 97.79)
+		(at 116.84 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6313fcc1-5636-404a-935c-486d9fa1f49b")
+	)
+	(junction
+		(at 77.47 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8759992a-6f8e-4b28-9366-96152d0d6f69")
@@ -2178,7 +2202,7 @@
 		(uuid "93a8b735-71bb-43c3-9873-253b26c405ff")
 	)
 	(junction
-		(at 73.66 114.3)
+		(at 73.66 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97e5fb0f-81dd-4876-9458-1352a9155875")
@@ -2196,13 +2220,19 @@
 		(uuid "a135d886-1e43-46bb-8ee4-0a707a98cc6f")
 	)
 	(junction
-		(at 91.44 100.33)
+		(at 49.53 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afee9823-e975-4db1-b86d-47a55d613346")
 	)
 	(junction
-		(at 91.44 93.98)
+		(at 67.31 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5d8e313-9bdb-4603-8e49-4e595b0d101b")
+	)
+	(junction
+		(at 49.53 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b79c519f-0c89-4e2e-b6ab-7dd35534f793")
@@ -2220,7 +2250,7 @@
 		(uuid "c75334e7-b99a-4241-a4f0-b59417dfa893")
 	)
 	(junction
-		(at 58.42 114.3)
+		(at 58.42 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2204266-be54-45ee-8535-468a765927e8")
@@ -2244,6 +2274,12 @@
 		(uuid "e62b5818-6704-4bfe-8f60-fe1047dadffd")
 	)
 	(junction
+		(at 67.31 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eedb93c4-ad0f-4998-a1ed-62c7ab77d865")
+	)
+	(junction
 		(at 121.92 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2257,6 +2293,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 110.49) (xy 67.31 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024b5dcd-b566-4938-b476-05ba43c15a92")
+	)
+	(wire
+		(pts
 			(xy 186.69 90.17) (xy 186.69 92.71)
 		)
 		(stroke
@@ -2264,6 +2310,16 @@
 			(type default)
 		)
 		(uuid "05b506a1-680c-4339-a223-87c0f59e2aeb")
+	)
+	(wire
+		(pts
+			(xy 62.23 100.33) (xy 67.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "091b8125-47c8-460e-8f9b-2bc6cbdb89f8")
 	)
 	(wire
 		(pts
@@ -2284,16 +2340,6 @@
 			(type default)
 		)
 		(uuid "0b0ad35b-ee9f-4704-a41f-45a49cfb54a6")
-	)
-	(wire
-		(pts
-			(xy 96.52 100.33) (xy 116.84 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11e3969c-b536-4941-bded-8374d12f3888")
 	)
 	(wire
 		(pts
@@ -2347,13 +2393,23 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 106.68) (xy 49.53 114.3)
+			(xy 49.53 143.51) (xy 49.53 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "230600f2-8d84-4e9c-ad01-2f10b53a6150")
+	)
+	(wire
+		(pts
+			(xy 67.31 100.33) (xy 116.84 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "246db64c-b96f-4dbc-905d-261eb22f95e4")
 	)
 	(wire
 		(pts
@@ -2377,7 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 114.3) (xy 105.41 105.41)
+			(xy 105.41 151.13) (xy 105.41 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2427,7 +2483,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 105.41) (xy 80.01 132.08)
+			(xy 80.01 142.24) (xy 80.01 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2437,7 +2493,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 114.3) (xy 105.41 114.3)
+			(xy 73.66 151.13) (xy 105.41 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2507,7 +2563,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 102.87) (xy 102.87 106.68)
+			(xy 102.87 102.87) (xy 102.87 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2557,6 +2613,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 83.82) (xy 67.31 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a268d53-8aec-4c42-ad4f-9dc76d82dbdc")
+	)
+	(wire
+		(pts
 			(xy 171.45 107.95) (xy 181.61 107.95)
 		)
 		(stroke
@@ -2567,7 +2633,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 97.79) (xy 73.66 97.79)
+			(xy 77.47 134.62) (xy 73.66 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2587,7 +2653,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 97.79) (xy 80.01 97.79)
+			(xy 77.47 134.62) (xy 80.01 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2604,6 +2670,16 @@
 			(type default)
 		)
 		(uuid "4f994a86-c444-4cf3-b51e-d7617339c5a1")
+	)
+	(wire
+		(pts
+			(xy 49.53 76.2) (xy 49.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506ceeb8-e272-4c2b-a1c1-aea75cf70bc2")
 	)
 	(wire
 		(pts
@@ -2657,7 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 114.3) (xy 68.58 114.3)
+			(xy 73.66 151.13) (xy 68.58 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2674,6 +2750,16 @@
 			(type default)
 		)
 		(uuid "5db3b9f3-b594-4c22-9418-5bf77100008c")
+	)
+	(wire
+		(pts
+			(xy 49.53 92.71) (xy 49.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db6dafe-51c0-40f9-85da-53c354dc2b39")
 	)
 	(wire
 		(pts
@@ -2717,7 +2803,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 132.08) (xy 49.53 129.54)
+			(xy 49.53 168.91) (xy 49.53 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2727,7 +2813,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 149.86) (xy 110.49 149.86)
+			(xy 68.58 186.69) (xy 110.49 186.69)
 		)
 		(stroke
 			(width 0)
@@ -2807,7 +2893,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 106.68) (xy 49.53 106.68)
+			(xy 58.42 143.51) (xy 49.53 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2877,6 +2963,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 83.82) (xy 102.87 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a53d4c7-91c1-457c-a33b-83764666107a")
+	)
+	(wire
+		(pts
 			(xy 153.67 87.63) (xy 153.67 97.79)
 		)
 		(stroke
@@ -2914,6 +3010,16 @@
 			(type default)
 		)
 		(uuid "80596229-11d1-4b57-8521-de09a1cefa52")
+	)
+	(wire
+		(pts
+			(xy 49.53 110.49) (xy 49.53 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807a7b8a-6b83-4108-8293-60fcd35be29c")
 	)
 	(wire
 		(pts
@@ -2957,7 +3063,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 91.44) (xy 91.44 93.98)
+			(xy 49.53 71.12) (xy 49.53 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2977,7 +3083,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 105.41) (xy 73.66 114.3)
+			(xy 73.66 142.24) (xy 73.66 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3107,6 +3213,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 118.11) (xy 67.31 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94498ea3-639c-46a5-9000-eed6a5144511")
+	)
+	(wire
+		(pts
 			(xy 153.67 118.11) (xy 153.67 120.65)
 		)
 		(stroke
@@ -3127,7 +3243,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 132.08) (xy 107.95 107.95)
+			(xy 107.95 168.91) (xy 107.95 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3137,7 +3253,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 132.08) (xy 107.95 132.08)
+			(xy 80.01 168.91) (xy 107.95 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3197,7 +3313,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 114.3) (xy 63.5 114.3)
+			(xy 58.42 151.13) (xy 63.5 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3327,7 +3443,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 132.08) (xy 80.01 132.08)
+			(xy 68.58 168.91) (xy 80.01 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3347,7 +3463,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 149.86) (xy 110.49 110.49)
+			(xy 110.49 186.69) (xy 110.49 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3357,7 +3473,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 132.08) (xy 63.5 132.08)
+			(xy 54.61 168.91) (xy 63.5 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3407,7 +3523,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 114.3) (xy 58.42 114.3)
+			(xy 54.61 151.13) (xy 58.42 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3424,6 +3540,16 @@
 			(type default)
 		)
 		(uuid "c20efcd1-d602-4741-b651-170c7fd8bc35")
+	)
+	(wire
+		(pts
+			(xy 67.31 92.71) (xy 49.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ac4cd1-4127-494b-a324-36917218a941")
 	)
 	(wire
 		(pts
@@ -3447,16 +3573,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 93.98) (xy 102.87 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c78437db-78fa-4814-aebb-da87aa288015")
-	)
-	(wire
-		(pts
 			(xy 162.56 48.26) (xy 162.56 46.99)
 		)
 		(stroke
@@ -3467,13 +3583,23 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 100.33) (xy 91.44 106.68)
+			(xy 49.53 100.33) (xy 49.53 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cab60731-32cc-4abc-8d7b-7795bd890537")
+	)
+	(wire
+		(pts
+			(xy 67.31 118.11) (xy 102.87 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6daf20-eaec-4b1e-b112-a9dfb2b2784d")
 	)
 	(wire
 		(pts
@@ -3507,23 +3633,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 106.68) (xy 102.87 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cea2dc9f-b371-4e33-9164-2211593cc7ae")
-	)
-	(wire
-		(pts
-			(xy 91.44 93.98) (xy 91.44 100.33)
+			(xy 49.53 83.82) (xy 49.53 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d2a3dac5-efde-4be1-b674-d2f8dcb0aa8b")
+	)
+	(wire
+		(pts
+			(xy 49.53 76.2) (xy 67.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d819d1a7-fe23-4a07-8681-549f2e73ed9d")
 	)
 	(wire
 		(pts
@@ -3557,7 +3683,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 93.98) (xy 102.87 97.79)
+			(xy 102.87 83.82) (xy 102.87 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3647,7 +3773,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 149.86) (xy 49.53 146.05)
+			(xy 49.53 186.69) (xy 49.53 182.88)
 		)
 		(stroke
 			(width 0)
@@ -3657,7 +3783,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 149.86) (xy 63.5 149.86)
+			(xy 54.61 186.69) (xy 63.5 186.69)
 		)
 		(stroke
 			(width 0)
@@ -3727,15 +3853,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 80.01 101.6 0)
+		(at 67.31 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "05bc538a-d250-4c00-bcc9-120930051211")
-		(property "Reference" "R8"
-			(at 78.74 108.458 90)
+		(uuid "05b84f76-7444-4def-a602-807c493ec685")
+		(property "Reference" "R6"
+			(at 68.58 73.152 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3743,8 +3869,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5M"
-			(at 81.28 108.458 90)
+		(property "Value" "10k"
+			(at 66.04 73.152 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3753,7 +3879,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 81.026 101.854 90)
+			(at 66.294 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,7 +3888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 101.6 0)
+			(at 67.31 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3897,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 80.01 101.6 0)
+			(at 67.31 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,7 +3906,7 @@
 			)
 		)
 		(property "Digi_PN" ""
-			(at 80.01 101.6 0)
+			(at 67.31 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +3915,94 @@
 			)
 		)
 		(property "MFG_PN" ""
-			(at 80.01 101.6 0)
+			(at 67.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ceedfc9-7b46-4faf-bfe7-240d7add8c68")
+		)
+		(pin "1"
+			(uuid "69a0bd05-37a4-4d17-ac5a-9eb1d7f1662c")
+		)
+		(instances
+			(project "SNEdge"
+				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 80.01 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05bc538a-d250-4c00-bcc9-120930051211")
+		(property "Reference" "R8"
+			(at 78.74 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5M"
+			(at 81.28 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 81.026 138.684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 80.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi_PN" ""
+			(at 80.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" ""
+			(at 80.01 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +4971,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 93.98 100.33 180)
+		(at 52.07 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4766,7 +4979,7 @@
 		(dnp no)
 		(uuid "3058e578-6b0f-481b-ab26-a6ba33033200")
 		(property "Reference" "J6"
-			(at 87.884 97.79 0)
+			(at 45.974 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4774,7 +4987,7 @@
 			)
 		)
 		(property "Value" "B_IN"
-			(at 87.884 100.33 0)
+			(at 45.974 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4782,7 +4995,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 93.98 100.33 0)
+			(at 52.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,7 +5004,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 100.33 0)
+			(at 52.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4800,7 +5013,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 93.98 100.33 0)
+			(at 52.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +5038,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 66.04 114.3 90)
+		(at 66.04 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4833,7 +5046,7 @@
 		(dnp no)
 		(uuid "315f045f-f880-4294-b5a8-a029a1d17644")
 		(property "Reference" "C1"
-			(at 66.04 110.998 90)
+			(at 66.04 147.828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +5054,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 66.294 117.348 90)
+			(at 66.294 154.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4849,7 +5062,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 66.04 114.3 0)
+			(at 66.04 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4858,7 +5071,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 114.3 0)
+			(at 66.04 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,7 +5080,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 66.04 114.3 0)
+			(at 66.04 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,7 +5089,7 @@
 			)
 		)
 		(property "Digi_PN" "1276-2444-1-ND"
-			(at 66.04 114.3 0)
+			(at 66.04 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4885,7 +5098,7 @@
 			)
 		)
 		(property "MFG_PN" "CL21B104KBCNFNC"
-			(at 66.04 114.3 0)
+			(at 66.04 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,6 +5116,93 @@
 			(project "SNEdge"
 				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 67.31 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c4eb356-ac8d-46c4-8a5f-99bda5ce52f7")
+		(property "Reference" "R2"
+			(at 68.58 107.442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 66.04 107.442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 66.294 114.046 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi_PN" ""
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" ""
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a681bb80-8e34-4c36-b7f0-0f569d5b95c8")
+		)
+		(pin "1"
+			(uuid "75ef0623-399e-47cd-b36f-ff9df241fb62")
+		)
+		(instances
+			(project "SNEdge"
+				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5407,32 +5707,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 93.98 93.98 180)
+		(lib_id "Device:R_US")
+		(at 58.42 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5325eca0-ee5d-4743-a0ee-93ea2b0ec6e1")
-		(property "Reference" "J5"
-			(at 87.884 91.44 0)
+		(uuid "521ec77c-14de-4c76-8957-210bb487fd98")
+		(property "Reference" "R3"
+			(at 65.278 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "G_IN"
-			(at 87.884 93.98 0)
+		(property "Value" "680"
+			(at 65.278 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 93.98 93.98 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 58.674 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +5743,92 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 93.98 0)
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi_PN" ""
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" ""
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f5267f3-1d7e-4a07-88f8-21ee141084b4")
+		)
+		(pin "1"
+			(uuid "2d76f86c-9835-43b3-b1e5-b24130bafa74")
+		)
+		(instances
+			(project "SNEdge"
+				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 52.07 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5325eca0-ee5d-4743-a0ee-93ea2b0ec6e1")
+		(property "Reference" "J5"
+			(at 45.974 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G_IN"
+			(at 45.974 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +5837,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 93.98 93.98 0)
+			(at 52.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,7 +5862,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 66.04 132.08 90)
+		(at 66.04 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5483,7 +5870,7 @@
 		(dnp no)
 		(uuid "53f214bb-e40f-455f-b0a6-de54399cd7b2")
 		(property "Reference" "C2"
-			(at 66.04 129.032 90)
+			(at 66.04 165.862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5491,7 +5878,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 66.04 135.128 90)
+			(at 66.04 171.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +5886,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 66.04 132.08 0)
+			(at 66.04 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5508,7 +5895,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 132.08 0)
+			(at 66.04 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5517,7 +5904,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 66.04 132.08 0)
+			(at 66.04 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5526,7 +5913,7 @@
 			)
 		)
 		(property "Digi_PN" "1276-2444-1-ND"
-			(at 66.04 132.08 0)
+			(at 66.04 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +5922,7 @@
 			)
 		)
 		(property "MFG_PN" "CL21B104KBCNFNC"
-			(at 66.04 132.08 0)
+			(at 66.04 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,15 +6013,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 58.42 110.49 0)
+		(at 58.42 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "54ad6ee9-1abc-4f8a-ab87-3afe34d986c6")
-		(property "Reference" "R1"
-			(at 57.15 117.348 90)
+		(property "Reference" "R22"
+			(at 57.15 154.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,7 +6030,7 @@
 			)
 		)
 		(property "Value" "75"
-			(at 59.69 117.348 90)
+			(at 59.69 154.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +6039,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 59.436 110.744 90)
+			(at 59.436 147.574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +6048,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 110.49 0)
+			(at 58.42 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,7 +6057,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 58.42 110.49 0)
+			(at 58.42 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,7 +6066,7 @@
 			)
 		)
 		(property "Digi_PN" ""
-			(at 58.42 110.49 0)
+			(at 58.42 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5688,7 +6075,7 @@
 			)
 		)
 		(property "MFG_PN" ""
-			(at 58.42 110.49 0)
+			(at 58.42 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +6092,7 @@
 		(instances
 			(project "SNEdge"
 				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
-					(reference "R1")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -5713,7 +6100,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 146.05 180)
+		(at 49.53 182.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5721,7 +6108,7 @@
 		(dnp no)
 		(uuid "56594426-d975-432c-8af9-6804bea285dd")
 		(property "Reference" "#PWR05"
-			(at 49.53 139.7 0)
+			(at 49.53 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5730,7 +6117,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 142.494 0)
+			(at 49.53 179.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,7 +6125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 146.05 0)
+			(at 49.53 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +6134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 146.05 0)
+			(at 49.53 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5756,7 +6143,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 146.05 0)
+			(at 49.53 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,7 +6319,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 66.04 149.86 90)
+		(at 66.04 186.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5940,7 +6327,7 @@
 		(dnp no)
 		(uuid "60480b8d-6f0e-4c14-a578-6b7fe50f1393")
 		(property "Reference" "C3"
-			(at 66.04 152.908 90)
+			(at 66.04 189.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +6335,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 66.04 146.812 90)
+			(at 66.04 183.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5956,7 +6343,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 66.04 149.86 0)
+			(at 66.04 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5965,7 +6352,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 149.86 0)
+			(at 66.04 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5974,7 +6361,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 66.04 149.86 0)
+			(at 66.04 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5983,7 +6370,7 @@
 			)
 		)
 		(property "Digi_PN" "1276-2444-1-ND"
-			(at 66.04 149.86 0)
+			(at 66.04 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5992,7 +6379,7 @@
 			)
 		)
 		(property "MFG_PN" "CL21B104KBCNFNC"
-			(at 66.04 149.86 0)
+			(at 66.04 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6209,7 +6596,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 129.54 180)
+		(at 49.53 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6217,7 +6604,7 @@
 		(dnp no)
 		(uuid "66911f92-a3b7-477f-b618-7866df0685eb")
 		(property "Reference" "#PWR04"
-			(at 49.53 123.19 0)
+			(at 49.53 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6226,7 +6613,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 125.984 0)
+			(at 49.53 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6234,7 +6621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 129.54 0)
+			(at 49.53 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6243,7 +6630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 129.54 0)
+			(at 49.53 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +6639,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 129.54 0)
+			(at 49.53 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6488,34 +6875,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 52.07 149.86 180)
+		(lib_id "Device:R_US")
+		(at 58.42 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "72b1c904-cf53-4173-abaa-f69ccdb1f277")
-		(property "Reference" "J4"
-			(at 41.91 147.32 0)
+		(uuid "6cd5cc87-ef5f-411e-babc-c46d0d94f902")
+		(property "Reference" "R1"
+			(at 65.278 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "YO"
-			(at 40.64 149.86 0)
+		(property "Value" "680"
+			(at 65.278 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 52.07 149.86 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 58.674 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6524,7 +6911,94 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 149.86 0)
+			(at 58.42 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 58.42 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi_PN" ""
+			(at 58.42 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" ""
+			(at 58.42 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ce90e3b-f3b9-4c6f-8dba-30aa5331eafa")
+		)
+		(pin "1"
+			(uuid "31bf87c1-22ea-4bfc-bbeb-3db7f0be3018")
+		)
+		(instances
+			(project "SNEdge"
+				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 52.07 186.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72b1c904-cf53-4173-abaa-f69ccdb1f277")
+		(property "Reference" "J4"
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "YO"
+			(at 40.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+			(at 52.07 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6533,7 +7007,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 52.07 149.86 0)
+			(at 52.07 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,8 +7184,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 67.31 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d77a276-d7e0-4159-9e60-afeba0d945f3")
+		(property "Reference" "R4"
+			(at 68.58 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 66.04 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 66.294 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi_PN" ""
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" ""
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08afa8f3-d9d9-4bb2-bc57-2a72e9ea8272")
+		)
+		(pin "1"
+			(uuid "514963f3-4045-42b3-812d-c074b00e2d45")
+		)
+		(instances
+			(project "SNEdge"
+				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 91.44 91.44 180)
+		(at 49.53 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6719,7 +7280,7 @@
 		(dnp no)
 		(uuid "80e31ebb-1ace-4127-83ec-51947a8c9ad6")
 		(property "Reference" "#PWR07"
-			(at 91.44 85.09 0)
+			(at 49.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6728,7 +7289,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 87.884 0)
+			(at 49.53 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,7 +7297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 91.44 0)
+			(at 49.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +7306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 91.44 0)
+			(at 49.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6754,7 +7315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 91.44 0)
+			(at 49.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6908,32 +7469,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 52.07 132.08 180)
+		(lib_id "Device:R_US")
+		(at 58.42 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9d3e2348-8099-432e-9801-b6da0f331ee7")
-		(property "Reference" "J3"
-			(at 42.926 129.794 0)
+		(uuid "8c14ff53-65f2-40dc-8b32-278d97152634")
+		(property "Reference" "R5"
+			(at 65.278 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "(B-Y)O"
-			(at 42.926 132.334 0)
+		(property "Value" "680"
+			(at 65.278 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 52.07 132.08 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 58.674 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6942,7 +7505,92 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 132.08 0)
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi_PN" ""
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" ""
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e71442bd-b5cf-4bd9-8497-f1f1a4518e7d")
+		)
+		(pin "1"
+			(uuid "951454d3-1c4b-4317-977e-3732e6f9be9d")
+		)
+		(instances
+			(project "SNEdge"
+				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 52.07 168.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d3e2348-8099-432e-9801-b6da0f331ee7")
+		(property "Reference" "J3"
+			(at 42.926 166.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "(B-Y)O"
+			(at 42.926 169.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+			(at 52.07 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6951,7 +7599,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 52.07 132.08 0)
+			(at 52.07 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,7 +8252,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 106.68 180)
+		(at 49.53 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7612,7 +8260,7 @@
 		(dnp no)
 		(uuid "c38bc3b9-1a3b-4f1c-ab94-b9d372d838f8")
 		(property "Reference" "#PWR03"
-			(at 49.53 100.33 0)
+			(at 49.53 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7621,7 +8269,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 103.124 0)
+			(at 49.53 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7629,7 +8277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 106.68 0)
+			(at 49.53 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,7 +8286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 106.68 0)
+			(at 49.53 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,7 +8295,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 106.68 0)
+			(at 49.53 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7887,7 +8535,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 52.07 114.3 180)
+		(at 52.07 151.13 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7895,7 +8543,7 @@
 		(dnp no)
 		(uuid "cbd6b6c4-d8c7-49d2-9ab5-1d75c1edd2a7")
 		(property "Reference" "J2"
-			(at 42.926 111.76 0)
+			(at 42.926 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7903,7 +8551,7 @@
 			)
 		)
 		(property "Value" "(R-Y)O"
-			(at 42.926 114.3 0)
+			(at 42.926 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7911,7 +8559,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 52.07 114.3 0)
+			(at 52.07 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7920,7 +8568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 114.3 0)
+			(at 52.07 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,7 +8577,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 52.07 114.3 0)
+			(at 52.07 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8086,7 +8734,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 77.47 97.79 0)
+		(at 77.47 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8095,7 +8743,7 @@
 		(fields_autoplaced yes)
 		(uuid "d36f40e6-51c5-491b-9801-b212c776b4db")
 		(property "Reference" "#PWR06"
-			(at 77.47 101.6 0)
+			(at 77.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8104,7 +8752,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 77.47 92.71 0)
+			(at 77.47 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +8760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 97.79 0)
+			(at 77.47 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,7 +8769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 97.79 0)
+			(at 77.47 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8130,7 +8778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 77.47 97.79 0)
+			(at 77.47 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8403,7 +9051,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 73.66 101.6 0)
+		(at 73.66 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8411,7 +9059,7 @@
 		(dnp no)
 		(uuid "df3bb5e8-db7d-46bd-8724-e67e0a47caf7")
 		(property "Reference" "R7"
-			(at 72.39 108.458 90)
+			(at 72.39 145.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8420,7 +9068,7 @@
 			)
 		)
 		(property "Value" "5M"
-			(at 74.93 108.458 90)
+			(at 74.93 145.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8429,7 +9077,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 74.676 101.854 90)
+			(at 74.676 138.684 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8438,7 +9086,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 101.6 0)
+			(at 73.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8447,7 +9095,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 73.66 101.6 0)
+			(at 73.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8456,7 +9104,7 @@
 			)
 		)
 		(property "Digi_PN" ""
-			(at 73.66 101.6 0)
+			(at 73.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,7 +9113,7 @@
 			)
 		)
 		(property "MFG_PN" ""
-			(at 73.66 101.6 0)
+			(at 73.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +9138,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 93.98 106.68 180)
+		(at 52.07 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8498,7 +9146,7 @@
 		(dnp no)
 		(uuid "e2885c15-c4f6-4bd8-ac63-43b907f99237")
 		(property "Reference" "J7"
-			(at 87.884 104.14 0)
+			(at 45.974 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8506,7 +9154,7 @@
 			)
 		)
 		(property "Value" "R_IN"
-			(at 87.884 106.68 0)
+			(at 45.974 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8514,7 +9162,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 93.98 106.68 0)
+			(at 52.07 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8523,7 +9171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 106.68 0)
+			(at 52.07 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,7 +9180,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 93.98 106.68 0)
+			(at 52.07 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)

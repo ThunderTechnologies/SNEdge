@@ -11426,6 +11426,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 129.85299 102.6)
+		(end 138.347009 105.294019)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Mask")
+		(uuid "e2707a7c-6d53-4ec8-8679-a7fca6cd6494")
+	)
 	(gr_arc
 		(start 157.2 105.8)
 		(mid 156.907107 106.507107)
@@ -11509,6 +11520,32 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f11ebd70-6f90-4298-bb75-0176d11e2386")
+	)
+	(gr_text "v2.0"
+		(at 108 104.4 0)
+		(layer "F.Mask")
+		(uuid "9995f9af-ec17-4090-81e8-b2b1a4877c3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "SNEdge"
+		(at 134.05299 104.7 0)
+		(layer "F.Mask")
+		(uuid "e6c051c2-ee38-4787-ad4d-fd18a4adad4b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify bottom)
+		)
 	)
 	(segment
 		(start 149.55 102.4625)
@@ -11603,7 +11640,7 @@
 		(uuid "4d0331be-6f32-4bc8-b3e1-0cf25b09c748")
 	)
 	(via
-		(at 109.7 102.3)
+		(at 110.2 102.3)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -11612,22 +11649,13 @@
 		(uuid "52283531-b866-4744-bb1c-ae618b7994bc")
 	)
 	(via
-		(at 109.7 105.3)
+		(at 110.2 105.2)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net 2)
 		(uuid "568fbf35-281b-4dca-8295-d2c9c2dc973a")
-	)
-	(via
-		(at 130.5 103.3)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "5f297cc4-909a-4db5-bbf8-c05b21dd26df")
 	)
 	(via
 		(at 106.418508 97.275954)
@@ -11638,15 +11666,6 @@
 		(uuid "6c9cab81-e7f6-4ec6-9e2a-57b12e567746")
 	)
 	(via
-		(at 137.2 103.3)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "752c137e-fb2c-480e-aec5-a4e4e7e8bf39")
-	)
-	(via
 		(at 105.9 102.3)
 		(size 0.6)
 		(drill 0.3)
@@ -11654,24 +11673,6 @@
 		(free yes)
 		(net 2)
 		(uuid "8c745130-10d2-42d2-a9d4-21bf088af951")
-	)
-	(via
-		(at 130.5 104.6)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "90b42346-9419-4832-88dc-9a7f21a895f3")
-	)
-	(via
-		(at 137.2 104.6)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "96329a43-6785-44f3-ae29-d261b739b032")
 	)
 	(via
 		(at 109.018 93.741)

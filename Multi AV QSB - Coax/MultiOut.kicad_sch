@@ -605,36 +605,35 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
+		(symbol "Jumper:Jumper_2_Open"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.254)
+				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -651,7 +650,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Polarized capacitor"
+			(property "Description" "Jumper, 2-pole, open"
 				(at 0 0 0)
 				(effects
 					(font
@@ -660,7 +659,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "ki_keywords" "Jumper SPST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -669,7 +668,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CP_*"
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -678,10 +677,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -690,47 +689,37 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
-			(symbol "C_Polarized_1_1"
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -746,9 +735,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -869,10 +858,10 @@
 		)
 	)
 	(junction
-		(at 190.5 55.88)
+		(at 186.69 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "be12d85d-e113-4cab-96f9-3067d9c54094")
+		(uuid "8aa67b8f-c1d0-4976-a134-1edb93879015")
 	)
 	(no_connect
 		(at 138.43 85.09)
@@ -904,6 +893,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 55.88) (xy 187.96 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7942f4-4fff-4efa-bf49-ecaa32b8314c")
+	)
+	(wire
+		(pts
 			(xy 137.16 50.8) (xy 179.07 50.8)
 		)
 		(stroke
@@ -914,53 +913,33 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 50.8) (xy 190.5 50.8)
+			(xy 186.69 50.8) (xy 186.69 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29a9bba6-fde3-400c-aad2-c0cb7eb87df3")
+		(uuid "4433e6e2-1e6a-4a4d-9869-4af18735c594")
 	)
 	(wire
 		(pts
-			(xy 184.15 60.96) (xy 190.5 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f24bc0e-1a2c-469f-b124-c3875379aafd")
-	)
-	(wire
-		(pts
-			(xy 184.15 55.88) (xy 190.5 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ffbbb6a-eb6a-49f0-a619-d3e87a68a7f6")
-	)
-	(wire
-		(pts
-			(xy 137.16 62.23) (xy 137.16 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40b5decf-c21d-49e4-9f27-d517a38cc334")
-	)
-	(wire
-		(pts
-			(xy 137.16 69.85) (xy 137.16 82.55)
+			(xy 137.16 50.8) (xy 137.16 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "444c047a-c755-4494-a61c-dbdaae9811ac")
+	)
+	(wire
+		(pts
+			(xy 184.15 50.8) (xy 186.69 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46fb4f4d-51b4-4811-9aea-ddcabfd72549")
 	)
 	(wire
 		(pts
@@ -984,6 +963,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 60.96) (xy 186.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b33272c-4720-4bcd-92ab-f763bda4ad1c")
+	)
+	(wire
+		(pts
 			(xy 152.4 55.88) (xy 179.07 55.88)
 		)
 		(stroke
@@ -991,26 +980,6 @@
 			(type default)
 		)
 		(uuid "7cdd8dca-a8d1-43c1-96af-f4d8a0afbf7d")
-	)
-	(wire
-		(pts
-			(xy 190.5 50.8) (xy 190.5 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "803e8fd8-cb90-4887-bd43-1f568ed10379")
-	)
-	(wire
-		(pts
-			(xy 166.37 69.85) (xy 166.37 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8de0d7a-cb60-486d-8500-810b3e6f0357")
 	)
 	(wire
 		(pts
@@ -1034,27 +1003,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 60.96) (xy 190.5 55.88)
+			(xy 184.15 55.88) (xy 186.69 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d00765b9-2c14-4c03-98c9-26e7bc3659cc")
+		(uuid "ca4c1c76-d66b-4aff-8718-1f5c4db81641")
 	)
 	(wire
 		(pts
-			(xy 152.4 69.85) (xy 152.4 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d438b46f-8e58-4957-b489-cb5a1d235826")
-	)
-	(wire
-		(pts
-			(xy 166.37 60.96) (xy 166.37 62.23)
+			(xy 166.37 60.96) (xy 166.37 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1064,7 +1023,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 55.88) (xy 152.4 62.23)
+			(xy 186.69 60.96) (xy 186.69 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8dfb12-ab90-4daa-bd0d-1096069c44bb")
+	)
+	(wire
+		(pts
+			(xy 152.4 55.88) (xy 152.4 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1201,34 +1170,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 137.16 66.04 0)
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 193.04 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "167d88fc-281a-43ef-a3c2-628835c95653")
-		(property "Reference" "C1"
-			(at 140.208 68.58 0)
+		(fields_autoplaced yes)
+		(uuid "19743f95-ef64-4ffa-9949-55ba5fed108d")
+		(property "Reference" "JP1"
+			(at 193.04 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "220uF"
-			(at 143.764 63.5 0)
+		(property "Value" "GND"
+			(at 193.04 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.8"
-			(at 138.1252 69.85 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 193.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,7 +1205,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 66.04 0)
+			(at 193.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,25 +1213,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 137.16 66.04 0)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 193.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "824d5293-379e-414d-888a-1c6f0983cd6e")
 		)
 		(pin "2"
-			(uuid "3301fa89-3c21-4ccc-9712-90b3d1ba3b68")
+			(uuid "74c03d3c-3fbe-4417-af61-87ddb8fa93ba")
+		)
+		(pin "1"
+			(uuid "d47aaf50-d1ff-4b00-a34e-6b42e2a03ca1")
 		)
 		(instances
 			(project ""
 				(path "/be8cd0e2-c518-4bbf-a245-612707f908c9"
-					(reference "C1")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -1605,77 +1573,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 166.37 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e824b77-8834-4b7c-81a4-78309e80e1da")
-		(property "Reference" "C3"
-			(at 169.418 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "220uF"
-			(at 172.974 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.8"
-			(at 167.3352 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 166.37 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1cdd85e-2d76-4f91-b2af-ffcc23c0c179")
-		)
-		(pin "2"
-			(uuid "4ca6f496-9fe1-4ef4-87fa-33595e9e6d7a")
-		)
-		(instances
-			(project "MultiOut"
-				(path "/be8cd0e2-c518-4bbf-a245-612707f908c9"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 190.5 55.88 90)
+		(at 198.12 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1684,7 +1583,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0ba890c-6696-4c4f-a4d0-8116ab7e3dad")
 		(property "Reference" "#PWR01"
-			(at 196.85 55.88 0)
+			(at 204.47 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1592,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 55.8799 90)
+			(at 201.93 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,7 +1601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 55.88 0)
+			(at 198.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 55.88 0)
+			(at 198.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +1619,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 55.88 0)
+			(at 198.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,75 +1634,6 @@
 			(project "MultiOut"
 				(path "/be8cd0e2-c518-4bbf-a245-612707f908c9"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 152.4 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df63dfc2-f55f-404c-8f40-d782ad086829")
-		(property "Reference" "C2"
-			(at 155.448 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "220uF"
-			(at 159.004 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.8"
-			(at 153.3652 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 152.4 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "782acf77-8583-4b21-a7fc-e2705f4cbdf9")
-		)
-		(pin "2"
-			(uuid "94210842-639b-4769-b4da-f3fea907411e")
-		)
-		(instances
-			(project "MultiOut"
-				(path "/be8cd0e2-c518-4bbf-a245-612707f908c9"
-					(reference "C2")
 					(unit 1)
 				)
 			)

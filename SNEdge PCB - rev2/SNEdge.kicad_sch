@@ -1331,7 +1331,7 @@
 	)
 	(text_box "Coax wires from PPU and encoder connections should have lifted shield from ground on the SNES side and only connect shield to ground on the SNEdge module. \nThe lifted shield prevents ground loops but will block interference. "
 		(exclude_from_sim no)
-		(at 115.57 52.07 0)
+		(at 57.15 15.24 0)
 		(size 41.91 16.51)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1356,10 +1356,10 @@
 		(uuid "17692755-0c1a-46ac-a493-1779e833d416")
 	)
 	(junction
-		(at 137.16 100.33)
+		(at 182.88 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1a0fd878-2e7e-47f5-88b4-821292530571")
+		(uuid "1e839f4e-ad69-4590-b7d1-63c48707472d")
 	)
 	(junction
 		(at 198.12 77.47)
@@ -1404,46 +1404,16 @@
 		(uuid "56d65407-9c51-44f4-92bc-669aa143ded2")
 	)
 	(junction
-		(at 224.79 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5dfde033-7e60-42c2-8193-16cf06a310c3")
-	)
-	(junction
-		(at 224.79 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62239b5a-5d7e-47f4-a186-5dd95df890e2")
-	)
-	(junction
 		(at 177.8 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6313fcc1-5636-404a-935c-486d9fa1f49b")
 	)
 	(junction
-		(at 137.16 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "766e5d8f-fa71-4561-96ef-830fb2367ea6")
-	)
-	(junction
-		(at 182.88 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76773634-8d1c-4590-9943-070347cbb62e")
-	)
-	(junction
 		(at 29.21 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8642abcd-1a30-423d-bd87-b5511357ff18")
-	)
-	(junction
-		(at 137.16 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89dd61ff-4d18-4750-a1d8-9eb9b2d8fb2f")
 	)
 	(junction
 		(at 44.45 69.85)
@@ -1458,28 +1428,10 @@
 		(uuid "94ff40dd-2deb-4bfa-ae52-89a36922193d")
 	)
 	(junction
-		(at 203.2 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96a86e90-935e-46cc-809f-f2c748aca0fb")
-	)
-	(junction
-		(at 137.16 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99a5a8f5-21c6-4f10-9931-0d2fef7af673")
-	)
-	(junction
 		(at 176.53 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a135d886-1e43-46bb-8ee4-0a707a98cc6f")
-	)
-	(junction
-		(at 137.16 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "afee9823-e975-4db1-b86d-47a55d613346")
 	)
 	(junction
 		(at 151.13 92.71)
@@ -1506,10 +1458,10 @@
 		(uuid "c8fbbaf3-68fd-4758-b4d2-965bc1feb5ad")
 	)
 	(junction
-		(at 203.2 59.69)
+		(at 203.2 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dbc07a79-323d-4c55-8655-4071c8f2f116")
+		(uuid "d034511a-b699-4746-9197-42aafce2453f")
 	)
 	(junction
 		(at 217.17 111.76)
@@ -1518,10 +1470,10 @@
 		(uuid "e62b5818-6704-4bfe-8f60-fe1047dadffd")
 	)
 	(junction
-		(at 182.88 59.69)
+		(at 224.79 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f5858967-7c94-48fb-828a-bd2528be5776")
+		(uuid "fcf77b14-e8f1-4865-b173-23a95b43b57a")
 	)
 	(junction
 		(at 151.13 127)
@@ -1561,6 +1513,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 55.88) (xy 182.88 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c49bc18-ae3a-4169-9f82-649035486abc")
+	)
+	(wire
+		(pts
 			(xy 250.19 109.22) (xy 250.19 113.03)
 		)
 		(stroke
@@ -1568,16 +1530,6 @@
 			(type default)
 		)
 		(uuid "123b47c2-d4e8-49ca-a9eb-25064e69af0d")
-	)
-	(wire
-		(pts
-			(xy 151.13 134.62) (xy 137.16 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18103d40-8479-4dff-a246-b14a60fa877e")
 	)
 	(wire
 		(pts
@@ -1601,63 +1553,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 92.71) (xy 137.16 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22dcdb9e-1c8d-44e0-bd8a-e315c1efc466")
-	)
-	(wire
-		(pts
-			(xy 137.16 127) (xy 137.16 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca0a323-2865-4f32-80e8-d8e32c7b34ef")
-	)
-	(wire
-		(pts
-			(xy 151.13 100.33) (xy 137.16 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "326ffc2f-2e34-41e2-a73a-432902e7af5f")
-	)
-	(wire
-		(pts
-			(xy 224.79 59.69) (xy 224.79 60.96)
+			(xy 224.79 58.42) (xy 224.79 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "355e6996-568b-4826-8ab8-cb4b60ee14e6")
-	)
-	(wire
-		(pts
-			(xy 191.77 59.69) (xy 191.77 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38138892-6c47-479d-b1c9-e43fb1aba8bc")
-	)
-	(wire
-		(pts
-			(xy 180.34 59.69) (xy 182.88 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39791b98-6e2c-4e8a-8d10-90dc0facc529")
 	)
 	(wire
 		(pts
@@ -1701,16 +1603,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 49.53) (xy 182.88 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d8582a-436b-442d-8220-69fffd962e64")
-	)
-	(wire
-		(pts
 			(xy 232.41 106.68) (xy 237.49 106.68)
 		)
 		(stroke
@@ -1748,16 +1640,6 @@
 			(type default)
 		)
 		(uuid "4ea0670d-e0d9-499d-bff2-590c62c23ea9")
-	)
-	(wire
-		(pts
-			(xy 137.16 116.84) (xy 151.13 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5463cda8-bb90-46c0-8fcf-a4a874d1a856")
 	)
 	(wire
 		(pts
@@ -1821,17 +1703,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 116.84) (xy 137.16 127)
+			(xy 176.53 58.42) (xy 175.26 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6372cfdf-ec69-45a7-9359-8977b42c02c6")
+		(uuid "63897a06-901c-42a4-805d-91f71f6daa76")
 	)
 	(wire
 		(pts
-			(xy 137.16 134.62) (xy 137.16 135.89)
+			(xy 151.13 134.62) (xy 151.13 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1891,16 +1773,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 59.69) (xy 170.18 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "770d77b6-ade8-4178-959b-85c1665bb551")
-	)
-	(wire
-		(pts
 			(xy 184.15 124.46) (xy 196.85 124.46)
 		)
 		(stroke
@@ -1918,16 +1790,6 @@
 			(type default)
 		)
 		(uuid "7869eb38-322a-41e3-863e-b6a739bcd31c")
-	)
-	(wire
-		(pts
-			(xy 191.77 49.53) (xy 203.2 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b88c004-30d6-40a3-9726-10c612047c66")
 	)
 	(wire
 		(pts
@@ -1951,36 +1813,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 59.69) (xy 203.2 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80596229-11d1-4b57-8521-de09a1cefa52")
-	)
-	(wire
-		(pts
-			(xy 137.16 109.22) (xy 137.16 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "807a7b8a-6b83-4108-8293-60fcd35be29c")
-	)
-	(wire
-		(pts
-			(xy 201.93 59.69) (xy 203.2 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81e564f9-7ca8-4d82-9aa5-e7d02ffea2fd")
-	)
-	(wire
-		(pts
 			(xy 142.24 92.71) (xy 151.13 92.71)
 		)
 		(stroke
@@ -1988,16 +1820,6 @@
 			(type default)
 		)
 		(uuid "8760d6b4-97c1-4b29-8647-ec7243014a65")
-	)
-	(wire
-		(pts
-			(xy 224.79 59.69) (xy 224.79 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87884d7a-bfae-425e-a2d5-e0a06880d8d5")
 	)
 	(wire
 		(pts
@@ -2021,7 +1843,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 59.69) (xy 182.88 60.96)
+			(xy 182.88 58.42) (xy 182.88 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2061,16 +1883,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 49.53) (xy 224.79 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98750207-e605-4e89-972e-e0b67f724eec")
-	)
-	(wire
-		(pts
 			(xy 176.53 77.47) (xy 176.53 111.76)
 		)
 		(stroke
@@ -2081,13 +1893,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 59.69) (xy 212.09 49.53)
+			(xy 218.44 58.42) (xy 217.17 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9afb3592-beb6-4e43-b549-259a6b6a981d")
+		(uuid "9c4f82fa-2545-45c6-9930-0c4ed79e9b31")
 	)
 	(wire
 		(pts
@@ -2121,16 +1933,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 50.8) (xy 182.88 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8d04d55-7510-4eae-b7b1-4895ae493087")
-	)
-	(wire
-		(pts
 			(xy 215.9 83.82) (xy 215.9 109.22)
 		)
 		(stroke
@@ -2151,13 +1953,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 59.69) (xy 224.79 59.69)
+			(xy 203.2 55.88) (xy 203.2 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae232876-3279-491b-9003-957fa9d44427")
+		(uuid "ad8e91d8-5987-45cd-81cb-7601aaef164e")
 	)
 	(wire
 		(pts
@@ -2201,26 +2003,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 50.8) (xy 203.2 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb483498-d691-40f9-a525-b8c46ed71186")
-	)
-	(wire
-		(pts
-			(xy 182.88 59.69) (xy 182.88 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be8bc48c-6038-4c8b-a464-1794fd94c08f")
-	)
-	(wire
-		(pts
 			(xy 237.49 105.41) (xy 237.49 106.68)
 		)
 		(stroke
@@ -2258,16 +2040,6 @@
 			(type default)
 		)
 		(uuid "c89ab0da-a1b2-4b29-b1c8-94a6bfc28f7b")
-	)
-	(wire
-		(pts
-			(xy 224.79 50.8) (xy 224.79 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9c290c3-44ae-4a2f-92a1-b99f0822d245")
 	)
 	(wire
 		(pts
@@ -2331,13 +2103,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 100.33) (xy 137.16 109.22)
+			(xy 196.85 58.42) (xy 195.58 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2c20ad0-dd11-4707-b581-186d443c3450")
+		(uuid "e0f86c2c-f6ae-4c23-ae68-050f823a1336")
 	)
 	(wire
 		(pts
@@ -2378,6 +2150,16 @@
 			(type default)
 		)
 		(uuid "e82a4ad5-4797-4d78-bd59-55dc5ba3aaf3")
+	)
+	(wire
+		(pts
+			(xy 203.2 58.42) (xy 203.2 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb13ef0c-4b2c-4702-9b4b-601293b99415")
 	)
 	(wire
 		(pts
@@ -2431,13 +2213,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 59.69) (xy 203.2 58.42)
+			(xy 224.79 55.88) (xy 224.79 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa5bad58-d4d6-482a-bf93-24182113645e")
+		(uuid "f7a85a05-8b49-4c1c-b4e7-cd68338ba5e4")
 	)
 	(wire
 		(pts
@@ -2460,33 +2242,34 @@
 		(uuid "fed05e92-a9ba-4043-84a6-9471858cc1ae")
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 177.8 59.69 270)
+		(lib_id "Connector:TestPoint")
+		(at 142.24 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0e381ff6-6346-4e5d-9161-0ba2c1081d85")
-		(property "Reference" "C6"
-			(at 177.7937 66.04 90)
+		(uuid "0a57c8b0-0ba9-4046-850d-a9d62e52fa88")
+		(property "Reference" "TP3"
+			(at 138.938 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "G_IN"
+			(at 138.938 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100nF"
-			(at 177.7937 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 177.8 59.69 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 142.24 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,7 +2278,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 59.69 0)
+			(at 142.24 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,8 +2286,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 177.8 59.69 0)
+		(property "Description" "test point"
+			(at 142.24 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,8 +2295,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digi_PN" ""
-			(at 177.8 59.69 0)
+		(property "Digi_PN" "N/A"
+			(at 142.24 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,25 +2304,22 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PN" ""
-			(at 177.8 59.69 0)
+		(property "MFG_PN" "N/A"
+			(at 142.24 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "714b017d-500d-48a3-a883-35a0147f5e6d")
 		)
 		(pin "1"
-			(uuid "ef3c2b98-25a0-427b-99ef-3c64354c5f31")
+			(uuid "1839bb89-46b6-4fff-9099-d953433bee51")
 		)
 		(instances
 			(project "SNEdge"
 				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
-					(reference "C6")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -2653,7 +2433,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 224.79 54.61 180)
+		(at 220.98 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2661,7 +2441,7 @@
 		(dnp no)
 		(uuid "1470ee1b-f0d1-4750-a97e-40786a336831")
 		(property "Reference" "R8"
-			(at 229.87 56.388 0)
+			(at 221.234 55.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,8 +2449,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180R"
-			(at 231.14 52.578 0)
+		(property "Value" "75R"
+			(at 218.694 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2459,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 223.774 54.356 90)
+			(at 220.726 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +2468,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 54.61 0)
+			(at 220.98 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +2477,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 224.79 54.61 0)
+			(at 220.98 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +2486,7 @@
 			)
 		)
 		(property "Digi_PN" ""
-			(at 224.79 54.61 0)
+			(at 220.98 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +2495,7 @@
 			)
 		)
 		(property "MFG_PN" ""
-			(at 224.79 54.61 0)
+			(at 220.98 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +2891,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 203.2 54.61 180)
+		(at 199.39 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3119,7 +2899,7 @@
 		(dnp no)
 		(uuid "2ca8f28a-b741-477e-88ef-257311ca52b7")
 		(property "Reference" "R6"
-			(at 208.026 56.388 0)
+			(at 199.644 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,8 +2907,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180R"
-			(at 209.296 53.086 0)
+		(property "Value" "75R"
+			(at 197.612 60.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3137,7 +2917,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 202.184 54.356 90)
+			(at 199.136 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,7 +2926,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 54.61 0)
+			(at 199.39 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3155,7 +2935,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 203.2 54.61 0)
+			(at 199.39 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3164,7 +2944,7 @@
 			)
 		)
 		(property "Digi_PN" ""
-			(at 203.2 54.61 0)
+			(at 199.39 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,7 +2953,7 @@
 			)
 		)
 		(property "MFG_PN" ""
-			(at 203.2 54.61 0)
+			(at 199.39 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,73 +2971,6 @@
 			(project "SNEdge"
 				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 139.7 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3058e578-6b0f-481b-ab26-a6ba33033200")
-		(property "Reference" "J6"
-			(at 133.604 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B_IN"
-			(at 133.604 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 139.7 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 139.7 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f162a88-55f9-4338-82d4-477b502182fe")
-		)
-		(pin "1"
-			(uuid "f5868812-8c4f-41c1-8cab-eb955a38796c")
-		)
-		(instances
-			(project "SNEdge"
-				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3657,6 +3370,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 142.24 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c5de618-92ff-4b0f-8194-e123b5d9b698")
+		(property "Reference" "TP4"
+			(at 138.938 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "B_IN"
+			(at 138.938 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi_PN" "N/A"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "N/A"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10d7b32b-6d86-4a54-bc6d-2a0e60e5e9be")
+		)
+		(instances
+			(project "SNEdge"
+				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 203.2 64.77 180)
 		(unit 1)
@@ -3674,8 +3471,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 207.01 63.754 0)
+		(property "Value" "430R"
+			(at 209.55 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,32 +3541,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 139.7 92.71 180)
+		(lib_id "Connector:TestPoint")
+		(at 142.24 127 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "5325eca0-ee5d-4743-a0ee-93ea2b0ec6e1")
-		(property "Reference" "J5"
-			(at 133.604 90.17 0)
+		(fields_autoplaced yes)
+		(uuid "545f64af-080e-4532-a85a-fca3e0acb72f")
+		(property "Reference" "TP5"
+			(at 138.938 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "R_IN"
+			(at 138.938 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "G_IN"
-			(at 133.604 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 139.7 92.71 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 142.24 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +3577,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 92.71 0)
+			(at 142.24 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,8 +3585,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 139.7 92.71 0)
+		(property "Description" "test point"
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,16 +3594,31 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "b2400024-6bf4-4577-8f9d-bd45fa01029f")
+		(property "Digi_PN" "N/A"
+			(at 142.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "N/A"
+			(at 142.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "50d4a75c-31de-4f2d-bec7-3b569274ab91")
+			(uuid "46a8160d-0f64-4de6-95cf-2e55f0293407")
 		)
 		(instances
 			(project "SNEdge"
 				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
-					(reference "J5")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -3828,8 +3642,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 186.69 63.754 0)
+		(property "Value" "430R"
+			(at 189.23 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,92 +3782,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 199.39 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65f4895e-f6e5-405d-a78d-5ccf6ece9474")
-		(property "Reference" "C7"
-			(at 199.3837 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 199.3837 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 199.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 199.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi_PN" ""
-			(at 199.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" ""
-			(at 199.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "70187c37-2bb3-432c-b9d4-d4d3fc189fcc")
-		)
-		(pin "1"
-			(uuid "a58e339c-b132-42b6-988e-a4e43b0e9033")
-		)
-		(instances
-			(project "SNEdge"
-				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 196.85 124.46 0)
 		(unit 1)
@@ -4120,86 +3848,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 214.63 59.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72b1c904-cf53-4173-abaa-f69ccdb1f277")
-		(property "Reference" "J4"
-			(at 209.042 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "G_E"
-			(at 208.28 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 214.63 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 214.63 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "17c94934-8d69-4d4c-868f-b9f922bef480")
-		)
-		(pin "1"
-			(uuid "ddf067f5-c58f-4ed6-9ec6-665794ae3ae3")
-		)
-		(instances
-			(project "SNEdge"
-				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 224.79 49.53 180)
+		(at 218.44 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7bd8a0f9-c27b-4cca-96bb-2cdb68e9c698")
 		(property "Reference" "#PWR015"
-			(at 224.79 43.18 0)
+			(at 212.09 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +3866,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 44.45 0)
+			(at 213.868 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,7 +3874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 49.53 0)
+			(at 218.44 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +3883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 49.53 0)
+			(at 218.44 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +3892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 49.53 0)
+			(at 218.44 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,15 +3914,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 135.89 0)
+		(at 151.13 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "80e31ebb-1ace-4127-83ec-51947a8c9ad6")
-		(property "Reference" "#PWR07"
-			(at 137.16 142.24 0)
+		(uuid "7cd269c3-58b8-4d83-b644-ef3d471ebbf8")
+		(property "Reference" "#PWR04"
+			(at 151.13 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +3931,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 139.446 0)
+			(at 151.13 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +3939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 135.89 0)
+			(at 151.13 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +3948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 135.89 0)
+			(at 151.13 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +3957,156 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 135.89 0)
+			(at 151.13 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bd5c305-b501-4124-9841-f6ca2d029e56")
+		)
+		(instances
+			(project "SNEdge"
+				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 203.2 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e59b10c-1954-4e92-800d-ee7b90b87a1d")
+		(property "Reference" "TP7"
+			(at 208.28 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "B_E"
+			(at 205.74 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 203.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi_PN" "N/A"
+			(at 203.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "N/A"
+			(at 203.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5ea9800-91ee-40e0-b2cf-dffd418f1154")
+		)
+		(instances
+			(project "SNEdge"
+				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80e31ebb-1ace-4127-83ec-51947a8c9ad6")
+		(property "Reference" "#PWR07"
+			(at 151.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,73 +4415,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 194.31 59.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d3e2348-8099-432e-9801-b6da0f331ee7")
-		(property "Reference" "J3"
-			(at 189.484 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B_E"
-			(at 189.484 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 194.31 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 194.31 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f86e5efe-6f94-4b77-809c-de84f80c03b2")
-		)
-		(pin "1"
-			(uuid "3ee637a5-85e6-46ed-bc44-ba119502e694")
-		)
-		(instances
-			(project "SNEdge"
-				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 193.04 90.17 270)
 		(unit 1)
@@ -4761,16 +4501,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 49.53 180)
+		(at 176.53 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a7071737-f3d1-4962-9ce1-e44a23e63cb3")
 		(property "Reference" "#PWR09"
-			(at 182.88 43.18 0)
+			(at 170.18 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +4518,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 44.45 0)
+			(at 171.958 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,7 +4526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 49.53 0)
+			(at 176.53 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,7 +4535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 49.53 0)
+			(at 176.53 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4805,7 +4544,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 49.53 0)
+			(at 176.53 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,8 +4648,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 228.6 63.5 0)
+		(property "Value" "430R"
+			(at 231.14 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,6 +4797,71 @@
 			(project "SNEdge"
 				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5bfa36c-243a-40f8-a7c1-8989ce3b47d7")
+		(property "Reference" "#PWR05"
+			(at 151.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32a9ba1c-d65c-44bd-a206-a2d25a56cdc5")
+		)
+		(instances
+			(project "SNEdge"
+				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5321,6 +5125,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 182.88 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c29ad656-6ee3-4ce2-89fd-5483bf83263c")
+		(property "Reference" "TP6"
+			(at 187.96 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "R_E"
+			(at 185.42 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 187.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi_PN" "N/A"
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "N/A"
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "068d9eef-ac05-4f1a-acd2-2a4db53f55ac")
+		)
+		(instances
+			(project "SNEdge"
+				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 196.85 99.06 0)
 		(unit 1)
@@ -5387,16 +5275,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 49.53 180)
+		(at 196.85 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c95af802-ad45-47ee-9355-3a39debb290a")
 		(property "Reference" "#PWR014"
-			(at 203.2 43.18 0)
+			(at 190.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,7 +5292,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 44.45 0)
+			(at 192.278 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5413,7 +5300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 49.53 0)
+			(at 196.85 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +5309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 49.53 0)
+			(at 196.85 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5318,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 49.53 0)
+			(at 196.85 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,7 +5340,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 182.88 54.61 180)
+		(at 179.07 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5461,7 +5348,7 @@
 		(dnp no)
 		(uuid "cb946a9a-4614-4d15-b2b8-96e358dab984")
 		(property "Reference" "R4"
-			(at 187.452 55.88 0)
+			(at 178.816 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,8 +5356,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180R"
-			(at 188.976 52.07 0)
+		(property "Value" "75R"
+			(at 176.276 60.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,7 +5366,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 181.864 54.356 90)
+			(at 178.816 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 54.61 0)
+			(at 179.07 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +5384,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 182.88 54.61 0)
+			(at 179.07 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5393,7 @@
 			)
 		)
 		(property "Digi_PN" ""
-			(at 182.88 54.61 0)
+			(at 179.07 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,7 +5402,7 @@
 			)
 		)
 		(property "MFG_PN" ""
-			(at 182.88 54.61 0)
+			(at 179.07 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5539,32 +5426,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 172.72 59.69 180)
+		(lib_id "Connector:TestPoint")
+		(at 224.79 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "cbd6b6c4-d8c7-49d2-9ab5-1d75c1edd2a7")
-		(property "Reference" "J2"
-			(at 167.132 57.404 0)
+		(fields_autoplaced yes)
+		(uuid "d06396b3-df5b-4632-8ec5-e2728ccc84fd")
+		(property "Reference" "TP8"
+			(at 229.87 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "G_E"
+			(at 227.33 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_E"
-			(at 167.132 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 172.72 59.69 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 229.87 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,7 +5462,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 59.69 0)
+			(at 229.87 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,8 +5470,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 172.72 59.69 0)
+		(property "Description" "test point"
+			(at 224.79 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,16 +5479,31 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "5f419af3-4260-42c7-ac8a-a7c80f11f04f")
+		(property "Digi_PN" "N/A"
+			(at 224.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "N/A"
+			(at 224.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "3669f4a1-4159-45d6-a808-0cc9a9c7c087")
+			(uuid "658185cb-9f57-4ca0-88cd-34572291d3a7")
 		)
 		(instances
 			(project "SNEdge"
 				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
-					(reference "J2")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -5691,73 +5595,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 139.7 127 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2885c15-c4f6-4bd8-ac63-43b907f99237")
-		(property "Reference" "J7"
-			(at 133.604 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_IN"
-			(at 133.604 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 139.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 139.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0dd9c7c4-b14f-49cd-beae-d129b8e4aa5e")
-		)
-		(pin "1"
-			(uuid "f5e37795-6a8f-4414-aa93-f2a700d09473")
-		)
-		(instances
-			(project "SNEdge"
-				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 29.21 100.33 0)
 		(unit 1)
@@ -5837,92 +5674,6 @@
 			(project "SNEdge"
 				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 219.71 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f24eabc5-d655-47a5-977a-7a1828365747")
-		(property "Reference" "C8"
-			(at 219.7037 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 219.7037 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 219.71 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 219.71 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi_PN" ""
-			(at 219.71 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG_PN" ""
-			(at 219.71 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "75e70cc6-ea04-4ef2-ae56-3543d7ee7a2c")
-		)
-		(pin "1"
-			(uuid "37aa5584-4a81-49d6-9b8f-535447f2e8f2")
-		)
-		(instances
-			(project "SNEdge"
-				(path "/b6c15655-575b-4e1d-9394-554f8b7e5fea"
-					(reference "C8")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,10 @@
+### Footprint positions - created on 2026-06-06T21:42:48 ###
+### Printed by KiCad version 10.0.3
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                                 PosX       PosY       Rot  Side
+J1        Multi_AV  Multi_AV_QSB                        146.9650   -84.1250    0.0000  top
+J2        R         U.FL_Hirose_U.FL-R-SMT-1_Vertical   134.2250   -90.7750  -90.0000  top
+J3        G         U.FL_Hirose_U.FL-R-SMT-1_Vertical   141.0000   -90.7500  -90.0000  top
+J4        B         U.FL_Hirose_U.FL-R-SMT-1_Vertical   148.0000   -90.7500  -90.0000  top
+## End

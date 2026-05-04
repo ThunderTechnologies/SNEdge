@@ -982,7 +982,7 @@
 				)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "10pF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "a86ce00d-752c-4ea8-915a-69c2540f8683")
@@ -2404,7 +2404,7 @@
 				)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "10pF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "10f6746a-88a6-4fff-9777-ac7c10646cb9")
@@ -3460,7 +3460,7 @@
 			(net 2 "GND")
 			(pinfunction "MountPin")
 			(pintype "passive")
-			(uuid "77648f49-29c2-4dc9-b8bd-bd73712074c0")
+			(uuid "9101099b-bbf4-420e-ac51-030c64a0976e")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/packages3D/527460771.stp"
@@ -5677,7 +5677,7 @@
 			(net 2 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "f154c2a4-0932-415d-a2d6-9d69a64fdd81")
+			(uuid "284556c6-2adc-4b39-8a2a-4b067bc4f12c")
 		)
 		(zone
 			(net 0)
@@ -5908,7 +5908,7 @@
 				)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "10pF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "4dfa25a2-3e90-49a2-853a-f556c82e8fbc")
@@ -7304,7 +7304,7 @@
 			(net 2 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "be287eba-e180-450e-989e-7d70e1c76a84")
+			(uuid "80908694-cf17-4d64-b54f-305c088f65be")
 		)
 		(zone
 			(net 0)
@@ -7831,7 +7831,7 @@
 			(net 2 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "c4efd5bb-f239-43a0-affb-e69013698fd0")
+			(uuid "88e8a850-696e-4796-8f94-f9f91f4a1b31")
 		)
 		(zone
 			(net 0)

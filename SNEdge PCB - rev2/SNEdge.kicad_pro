@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.8,
-          "width": 0.3
+          "height": 0.4,
+          "width": 1.475
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,32 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|157325003|95425001|77648f49-29c2-4dc9-b8bd-bd73712074c0|bd532e36-2fb5-4d5d-860e-404ce25bba8d",
-          ""
-        ],
-        [
-          "clearance|165424997|95425001|3fda5bc4-62cb-49a8-be3a-2134b786259b|77648f49-29c2-4dc9-b8bd-bd73712074c0",
-          ""
-        ],
-        [
-          "starved_thermal|153075000|95725000|c73c1bbe-853f-4f14-abed-afda0d1a95f5|5ceedf1c-630c-49fb-935a-1fd9971e07d7|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|159950000|91850000|c73c1bbe-853f-4f14-abed-afda0d1a95f5|f154c2a4-0932-415d-a2d6-9d69a64fdd81|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|163400000|91850000|c73c1bbe-853f-4f14-abed-afda0d1a95f5|be287eba-e180-450e-989e-7d70e1c76a84|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|172750000|91850000|c73c1bbe-853f-4f14-abed-afda0d1a95f5|c4efd5bb-f239-43a0-affb-e69013698fd0|F.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -217,8 +192,7 @@
         0.15,
         0.2,
         0.3,
-        0.4,
-        0.6
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -241,19 +215,15 @@
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.3,
+          "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.4
+          "spacing": 0.6
         }
       },
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.2
         },
         {
           "diameter": 0.6,
@@ -544,7 +514,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./Manufacturing/Gerbers/",
+      "plot": "Manufacturing/Gerbers/",
       "pos_files": "Manufacturing/PNP/",
       "specctra_dsn": "",
       "step": "",

@@ -503,7 +503,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Manufacturing/Gerbers/",
+      "plot": "Gerbers/",
       "pos_files": "Manufacturing/PNP/",
       "specctra_dsn": "",
       "step": "",

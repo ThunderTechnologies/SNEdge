@@ -1,0 +1,43 @@
+### Footprint positions - created on 2026-06-06T21:49:58 ###
+### Printed by KiCad version 10.0.3
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val           Package                                                         PosX       PosY       Rot  Side
+C1        22uF          C_0805_2012Metric_Pad1.18x1.45mm_HandSolder                 169.4125   -97.2250  180.0000  top
+C2        1uF           C_0805_2012Metric_Pad1.18x1.45mm_HandSolder                 133.9125  -104.0641    0.0000  top
+C3        10pF          C_0805_2012Metric_Pad1.18x1.45mm_HandSolder                 133.1750   -99.2250   90.0000  top
+C4        10pF          C_0805_2012Metric_Pad1.18x1.45mm_HandSolder                 141.0750   -99.2250   90.0000  top
+C5        10pF          C_0805_2012Metric_Pad1.18x1.45mm_HandSolder                 143.0750   -99.2250   90.0000  top
+C6        1uF           C_0805_2012Metric_Pad1.18x1.45mm_HandSolder                 154.0750   -93.7750  180.0000  top
+C7        1uF           C_0805_2012Metric_Pad1.18x1.45mm_HandSolder                 150.2750   -93.7750  180.0000  top
+C8        1uF           C_0805_2012Metric_Pad1.18x1.45mm_HandSolder                 146.4750   -93.7750    0.0000  top
+J1        RGB_OUT       CON_527460771_MOL                                           161.3750   -97.4250    0.0000  top
+J8        G_O           U.FL_Hirose_U.FL-R-SMT-1_Vertical                           164.8750   -92.3250   90.0000  top
+J9        B_O           U.FL_Hirose_U.FL-R-SMT-1_Vertical                           158.4750   -92.3250   90.0000  top
+J10       R_O           U.FL_Hirose_U.FL-R-SMT-1_Vertical                           171.2750   -92.3250   90.0000  top
+JP1       INPUT_JUMPER  R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_Jumper_Closed   169.4125  -100.0250  180.0000  top
+R1        7.5k          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                 132.9750   -92.6250   90.0000  top
+R2        7.5k          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                 137.3750   -92.6250   90.0000  top
+R3        7.5k          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                 141.7750   -92.6250   90.0000  top
+R4        430R          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                 154.0750   -97.6250    0.0000  top
+R5        430R          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                 150.3750   -97.6250    0.0000  top
+R6        430R          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                 146.6750   -97.6250  180.0000  top
+R7        75R           R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                 154.0750   -95.7250  180.0000  top
+R8        75R           R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                 150.3750   -95.7250  180.0000  top
+R9        75R           R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                 146.6750   -95.7250    0.0000  top
+R10       240R          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                 137.7750  -106.0150  180.0000  top
+R11       240R          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                 150.0750  -100.6250  180.0000  top
+R12       240R          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                 145.3750  -103.7250   90.0000  top
+R13       110R          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                 151.0750  -103.7250  -90.0000  top
+R14       110R          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                 149.1750  -103.7250  -90.0000  top
+R15       110R          R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                 141.4750  -105.6048    0.0000  top
+TP1       VCC           TestPoint_Pad_1.5x1.5mm                                     172.5750  -100.0250   90.0000  top
+TP2       GND           TestPoint_Pad_1.5x1.5mm                                     172.5750   -97.5250   90.0000  top
+TP3       G_IN          TestPoint_Pad_1.5x1.5mm                                     143.9750   -91.5250    0.0000  top
+TP4       B_IN          TestPoint_Pad_1.5x1.5mm                                     139.5750   -91.5250    0.0000  top
+TP5       R_IN          TestPoint_Pad_1.5x1.5mm                                     135.1750   -91.5250    0.0000  top
+TP6       R_E           TestPoint_Pad_1.5x1.5mm                                     154.0750   -91.5250    0.0000  top
+TP7       B_E           TestPoint_Pad_1.5x1.5mm                                     150.2750   -91.5250    0.0000  top
+TP8       G_E           TestPoint_Pad_1.5x1.5mm                                     146.4750   -91.5250    0.0000  top
+U1        THS7376       TSSOP-14_4.4x5mm_P0.65mm                                    137.2750   -99.2250  -90.0000  top
+## End

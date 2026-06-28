@@ -79,8 +79,6 @@ Solder leads from Q5 to G_IN and GND.
 
 Solder leads from Q7 to B_IN and GND.
 
-NOTE: _Each_ ground wire is important, don't skip out on this.
-
 The SNEdge needs to output video to U7 (S-ENC) on the SNES in order for composite video and S-video.
 
 The SNEdge R_E, G_E, and B_E outputs go to U7's pins 20, 21, 22 respectively. (you can ignore the GND pin next to these if you'd like. If you care, connect it to pin 2 of U7.

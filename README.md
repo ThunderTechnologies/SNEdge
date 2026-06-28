@@ -10,18 +10,22 @@ This is the latest revision of the SNEdge. Over the original it refines the inpu
 
 The SNEdge pairs with the **Multiout QSB**, which makes for a clean install right at the multiout. There are two ways to connect the SNEdge to the QSB:
 
-- **Coax (recommended)** — connect the two boards with U.FL-terminated 1.13mm coax (the same cable sold as WiFi antenna pigtails). This is the preferred method for new installs: it's a higher-quality, shielded connection, the U.FL connectors let you position and route the cable freely, and the cable is cheaper and easier to source than FFC. Around 10cm length works well.
+- **U.FL Coax (recommended)** — connect the two boards with U.FL-terminated 1.13mm coax (the same cable sold as WiFi antenna pigtails). This is the preferred method for new installs: it's a higher-quality, shielded connection, the U.FL connectors let you position and route the cable freely, and the cable is cheaper and easier to source than FFC. Around 10cm length works well.
 - **FFC cable** — a single ribbon cable between the two boards. Still supported, but coax is the better choice going forward.
 
 > Where to get the boards: **[SNEdge + Multiout QSB — add link]**. The coax is standard U.FL 1.13mm WiFi antenna pigtail cable (roughly 10cm), widely available online.
 
 The SNEdge
 
-<img src="https://github.com/ThunderTechnologies/SNEdge/blob/main/SNEdge%20PCB/SNEdge_PCB_Render.png" width="640">
+<img src="/SNEdge%20PCB/SNEdge_V2_Render.png" width="640">
 
-The Multiout QSB
+The Multiout U.FL QSB
 
-<img src="https://github.com/ThunderTechnologies/SNEdge/blob/main/Multi%20AV%20QSB/MultiOut_PCB_render.png" width="640">
+<img src="/Multi%20AV%20QSB/U.FL%20QSB/Multiout_UFL_render.png" width="240">
+
+The Multiout FFC QSB
+
+<img src="/Multi%20AV%20QSB/FFC%20QSB/MultiOut_FFC_PCB_render.png" width="240">
 
 (I'll be adding screenshots of the video output soon)
 

@@ -6,7 +6,7 @@ For now, only the full bypass is supported. The sidecar install will get a dedic
 
 The SNEdge corrects much of the smearing that's present on the 2 chip SNES. It taps the console's RGB, cleanly buffers it, and applies a tuned amount of sharpening to bring back the crisp edges the stock 2 chip output loses.
 
-This is the latest revision of the SNEdge. Over the original it refines the input biasing, properly impedance-matches the outputs to the 75 ohm video standard, and re-tunes the sharpening — see [How It Works](#how-it-works) for the details. It still uses 0805 components, so it's relatively approachable to solder by hand.
+This is the latest revision of the SNEdge. Over the original it refines the input biasing, properly impedance-matches the outputs to the 75Ω video standard, and re-tunes the sharpening — see [How It Works](#how-it-works) for the details. It still uses 0805 components, so it's relatively approachable to solder by hand.
 
 The SNEdge pairs with the **Multiout QSB**, which makes for a clean install right at the multiout. There are two ways to connect the SNEdge to the QSB:
 
@@ -41,7 +41,7 @@ A few design choices worth knowing about:
 
 - **Ground reference and input attenuation.** Each RGB input has a 7.5kΩ pull-down resistor. It does two jobs. First, it gives the amplifier input a proper, defined ground/DC reference so the signal sits where it should. Second, it attenuates the input down to around 2.20Vptp, which keeps the signal within the THS7376's 2.35Vptp linear input voltage spec and so avoids clipping the amplifier's input. For context, the SNES's original RGB amp has an input impedance of about 12kΩ.
 - **Sharpening.** A small feedback capacitor on each channel provides the edge sharpening. It's tuned for the most sharpening you can get before overshoot starts to become visible.
-- **75 ohm output.** Each output uses a 240Ω / 110Ω network. The thevenin equivalent is about 75Ω, which is the standard video source impedance, so the SNEdge drives a cable correctly.
+- **75Ω output.** Each output uses a 240Ω / 110Ω network. The thevenin equivalent is about 75Ω, which is the standard video source impedance, so the SNEdge drives a cable correctly.
 - **Optional noise caps.** Adding a 10uF cap to each of C90-C94 on the SNES motherboard helps suppress video noise. These are optional — you can leave them out and only add them if you notice any noticeable noise in the output.
 
 ## Installation

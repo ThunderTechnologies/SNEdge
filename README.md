@@ -13,7 +13,11 @@ The SNEdge pairs with the **Multiout QSB**, which makes for a clean install righ
 - **U.FL Coax (recommended)** — connect the two boards with U.FL-terminated 1.13mm coax (the same cable sold as WiFi antenna pigtails). This is the preferred method for new installs: it's a higher-quality, shielded connection, the U.FL connectors let you position and route the cable freely, and the cable is cheaper and easier to source than FFC. Around 10cm length works well.
 - **FFC cable** — a single ribbon cable between the two boards. Still supported, but coax is the better choice going forward.
 
-> Where to get the boards: **[SNEdge + Multiout QSB — add link]**. The coax is standard U.FL 1.13mm WiFi antenna pigtail cable (roughly 10cm), widely available online.
+> Where to get the boards:
+[SNEdge V2 Gerbers](https://github.com/ThunderTechnologies/SNEdge/tree/SNEdge_V2/SNEdge%20PCB/Manufacturing)
+[FFC QSB Gerbers](https://github.com/ThunderTechnologies/SNEdge/tree/SNEdge_V2/Multi%20AV%20QSB/FFC%20QSB/Manufacturing)
+[Coax QSB Gerbers](https://github.com/ThunderTechnologies/SNEdge/tree/SNEdge_V2/Multi%20AV%20QSB/U.FL%20QSB/Manufacturing)
+Note:  The coax is standard U.FL 1.13mm WiFi antenna pigtail cable (roughly 10cm), widely available online.
 
 The SNEdge
 
@@ -35,13 +39,13 @@ The SNEdge taps the RGB video signal at the PPU2 output (the Q3/Q5/Q7 points) an
 
 A few design choices worth knowing about:
 
-- **Ground reference and input attenuation.** Each RGB input has a 7.5k pull-down resistor. It does two jobs. First, it gives the amplifier input a proper, defined ground/DC reference so the signal sits where it should. Second, it attenuates the input down to around 2.20Vptp, which keeps the signal within the THS7376's 2.35Vptp linear input voltage spec and so avoids clipping the amplifier's input.
+- **Ground reference and input attenuation.** Each RGB input has a 7.5kΩ pull-down resistor. It does two jobs. First, it gives the amplifier input a proper, defined ground/DC reference so the signal sits where it should. Second, it attenuates the input down to around 2.20Vptp, which keeps the signal within the THS7376's 2.35Vptp linear input voltage spec and so avoids clipping the amplifier's input. For context, the SNES's original RGB amp has an input impedance of about 12kΩ.
 - **Sharpening.** A small feedback capacitor on each channel provides the edge sharpening. It's tuned for the most sharpening you can get before overshoot starts to become visible.
-- **75 ohm output.** Each output uses a 240R / 110R network. In parallel that's about 75 ohms, which is the standard video source impedance, so the SNEdge drives a cable correctly.
+- **75 ohm output.** Each output uses a 240Ω / Ω network. The thevenin equivalent is about 75Ω, which is the standard video source impedance, so the SNEdge drives a cable correctly.
 - **Optional noise caps.** Adding a 10uF cap to each of C90-C94 on the SNES motherboard helps suppress video noise. These are optional — you can leave them out and only add them if you notice any noticeable noise in the output.
 
 ## Installation
-I don't have specific, picture instructions on how to install the SNEdge yet (remember, alpha release).
+I don't have specific, picture instructions on how to install the SNEdge yet (These will be slowly added to the wiki).
 
 However, looking at the [SNES schematic (PDF)](https://wiki.superfamicom.org/uploads/snes_schematic_color.pdf) from [wiki.superfamicom.org](wiki.superfamicom.org) will be critical for understanding how to install this.
 
@@ -102,3 +106,4 @@ The main difference to be aware of is the cap designators: if you add the option
 ### Credits
 
 The SNEdge is based on the work of YoshiYukiBlade over on the [shmups.system11.org](https://shmups.system11.org/viewtopic.php?t=70196) forums.
+V2 was made possible by the many contributions from [RetroLoom]](https://github.com/RetroLoom)

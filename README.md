@@ -41,7 +41,7 @@ A few design choices worth knowing about:
 
 - **Ground reference and input attenuation.** Each RGB input has a 7.5kΩ pull-down resistor. It does two jobs. First, it gives the amplifier input a proper, defined ground/DC reference so the signal sits where it should. Second, it attenuates the input down to around 2.20Vptp, which keeps the signal within the THS7376's 2.35Vptp linear input voltage spec and so avoids clipping the amplifier's input. For context, the SNES's original RGB amp has an input impedance of about 12kΩ.
 - **Sharpening.** A small feedback capacitor on each channel provides the edge sharpening. It's tuned for the most sharpening you can get before overshoot starts to become visible.
-- **75 ohm output.** Each output uses a 240Ω / Ω network. The thevenin equivalent is about 75Ω, which is the standard video source impedance, so the SNEdge drives a cable correctly.
+- **75 ohm output.** Each output uses a 240Ω / 110Ω network. The thevenin equivalent is about 75Ω, which is the standard video source impedance, so the SNEdge drives a cable correctly.
 - **Optional noise caps.** Adding a 10uF cap to each of C90-C94 on the SNES motherboard helps suppress video noise. These are optional — you can leave them out and only add them if you notice any noticeable noise in the output.
 
 ## Installation

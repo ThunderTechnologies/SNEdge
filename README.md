@@ -14,9 +14,13 @@ The SNEdge pairs with the **Multiout QSB**, which makes for a clean install righ
 - **FFC cable** — a single ribbon cable between the two boards. Still supported, but coax is the better choice going forward.
 
 > Where to get the boards:
+
 [SNEdge V2 Gerbers](https://github.com/ThunderTechnologies/SNEdge/tree/SNEdge_V2/SNEdge%20PCB/Manufacturing)
+
 [FFC QSB Gerbers](https://github.com/ThunderTechnologies/SNEdge/tree/SNEdge_V2/Multi%20AV%20QSB/FFC%20QSB/Manufacturing)
+
 [Coax QSB Gerbers](https://github.com/ThunderTechnologies/SNEdge/tree/SNEdge_V2/Multi%20AV%20QSB/U.FL%20QSB/Manufacturing)
+
 Note:  The coax is standard U.FL 1.13mm WiFi antenna pigtail cable (roughly 10cm), widely available online.
 
 The SNEdge

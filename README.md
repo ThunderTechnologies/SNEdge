@@ -105,5 +105,5 @@ The main difference to be aware of is the cap designators: if you add the option
 
 ### Credits
 
-The SNEdge is based on the work of YoshiYukiBlade over on the [shmups.system11.org](https://shmups.system11.org/viewtopic.php?t=70196) forums.
-V2 was made possible by the many contributions from [RetroLoom]](https://github.com/RetroLoom)
+The SNEdge is based on the work of YoshiYukiBlade over on the [shmups.system11.org](https://shmups.system11.org/viewtopic.php?t=70196) forums.<br />
+V2 was made possible by the many contributions from [RetroLoom](https://github.com/RetroLoom)

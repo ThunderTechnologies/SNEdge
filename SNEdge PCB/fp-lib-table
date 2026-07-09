@@ -1,4 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "TT_Jumpers") (type "KiCad") (uri "/home/tt/Projects/EDA/libraries/Footprints/TT_Jumpers.pretty") (options "") (descr ""))
-)
